@@ -48,12 +48,9 @@ Express.js backend API for the courier service application with JWT authenticati
 ### Installation
 
 1. **Install dependencies**
-   \`\`\`bash
    npm install
-   \`\`\`
 
 2. **Database setup**
-   \`\`\`bash
 
    # Generate Prisma client
 
@@ -66,12 +63,9 @@ Express.js backend API for the courier service application with JWT authenticati
    # Seed database with sample data
 
    npm run db:seed
-   \`\`\`
 
 3. **Start development server**
-   \`\`\`bash
    npm run dev
-   \`\`\`
 
 The API will be available at `http://localhost:5000`
 
@@ -119,10 +113,6 @@ The API will be available at `http://localhost:5000`
 - Location and timestamp tracking
 - Detailed event descriptions
 
-## Scripts
-
-\`\`\`bash
-
 # Development
 
 npm run dev # Start development server with hot reload
@@ -136,7 +126,6 @@ npm run db:push # Push schema to database
 npm run db:migrate # Run database migrations
 npm run db:seed # Seed database with sample data
 npm run db:studio # Open Prisma Studio
-\`\`\`
 
 ## Default Users
 
@@ -176,7 +165,6 @@ After seeding, you can use these accounts:
 
 ### Project Structure
 
-\`\`\`
 backend/
 ├── src/
 │ ├── controllers/ # Request handlers
@@ -187,7 +175,6 @@ backend/
 │ ├── schema.prisma # Database schema
 │ └── seed.ts # Database seeding
 └── package.json
-\`\`\`
 
 ### Adding New Features
 
